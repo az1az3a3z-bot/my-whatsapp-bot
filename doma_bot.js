@@ -16,12 +16,13 @@ const QRCode = require('qrcode');
 const fs = require('fs');
 
 const ADMIN_NUMBERS = ["584164041083", "141451090509918"];
-const BOT_NUMBER = "967700421534";
+const BOT_NUMBER = "260752535332";
 const ADMIN_KEYWORD = "عبدو";
 const MENU_IMAGE_URL = "https://i.ibb.co/vChK2Y35/IMG.jpg";
 const DB_FILE = 'doma_db.json';
 const WARNING_MSG = "⚠️ 𓂋𓍿𓀀𓏥𓃀𓅱𓏏𓇋𓈖𓂧𓅱𓅓𓄿𓏏𓇋𓈖𓎼𓂧𓄿𓏏𓄿 𓃀𓅱𓏏𓇋𓈖𓂧𓅱𓅓𓄿𓏏𓇋𓈖𓎼𓂧𓄿𓏏𓄿";
 
+// قاعدة بيانات
 let db = {
     users: {},
     groups: {},
@@ -376,4 +377,4 @@ if (!global.reconnecting) {
     startBot().finally(() => {
         global.reconnecting = false;
     });
-                  }
+                                                                     }
