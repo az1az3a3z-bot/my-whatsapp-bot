@@ -1,0 +1,13 @@
+{
+  "name": "doma-bot",
+  "version": "1.0.0",
+  "main": "doma_bot.js",
+  "scripts": {
+    "start": "node doma_bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.22",
+    "pino": "8.17.2",
+    "qrcode": "1.5.3"
+  }
+}
